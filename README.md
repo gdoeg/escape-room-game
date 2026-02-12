@@ -4,7 +4,6 @@ A mobile choose-your-own-adventure escape room game built with Flutter. Players 
 
 This project demonstrates mobile UI development, state management, navigation logic, and interactive storytelling using Flutter and Dart.
 
----
 
 ## Features
 
@@ -16,7 +15,6 @@ This project demonstrates mobile UI development, state management, navigation lo
 - Exit confirmation dialog
 - Responsive mobile UI layout
 
----
 
 ## Architecture Overview 
 
@@ -37,7 +35,6 @@ The game is structured around a room graph model, where each room is a node conn
 - Prevents invalid transitions
 - Displays feedback via SnackBars
 
----
 
 ## Game Logic 
 Each room contains:
@@ -64,7 +61,6 @@ This function:
 2. Updates current room
 3. Rebuilds UI with animations
 
----
 
 ## UI & Animations
 
@@ -83,7 +79,6 @@ Widgets used:
 - `Chip`
 - `ElevatedButton`
 
----
 
 ## Tech Stack
 
@@ -93,7 +88,6 @@ Widgets used:
 - **State Management:** StatefulWidget / setState
 - **Platform:** iOS / Android compatible
 
----
 
 ## Running the Project 
 
@@ -110,7 +104,6 @@ flutter pub get
 flutter run
 ```
 
----
 
 ## Example Gameplay Flow 
 1. Start in the Foyer
@@ -121,7 +114,6 @@ flutter run
 
 Each decision dynamically updates the environment.
 
---- 
 
 ## Future Improvements 
 - Inventory system
@@ -131,17 +123,27 @@ Each decision dynamically updates the environment.
 - Save/load progress
 - Expanded map & storylines
 - Multiplayer co-op mode
-
---- 
+ 
 
 ## Screenshots 
 
-![Starting Room - Foyer](https://github.com/user-attachments/assets/e24937a0-ce05-4d38-a66f-fa083f532679)
+### Starting Room - Foyer
+![Starting Room - Foyer](screenshots/foyer-start.png)
+
+### Kitchen
+![Kitchen](screenshots/kitchen-room.png)
+
+### Garden
+![Garden](screenshots/garden-room.png)
+
+### Library
+![Library](screenshots/library-room.png)
 
 
+### Gameplay Demo
+![Game Play](screenshots/gameplay-demo.gif)
 
 
----
 
 ## Learning Outcomes 
 This project demonstrates: 
@@ -152,7 +154,6 @@ This project demonstrates:
 - User interaction handling
 - Dialog & feedback systems
 
----
 
 ## License 
 This project is for educational and portfolio use. 
