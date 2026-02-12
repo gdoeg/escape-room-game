@@ -136,6 +136,11 @@ Each decision dynamically updates the environment.
 
 ## Screenshots 
 
+![Starting Room - Foyer](https://github.com/user-attachments/assets/e24937a0-ce05-4d38-a66f-fa083f532679)
+
+
+
+
 ---
 
 ## Learning Outcomes 
