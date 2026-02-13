@@ -1,5 +1,7 @@
 # Escape Room Adeventure Game 
 
+[![Flutter CI](https://github.com/gdoeg/escape-room-game/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/gdoeg/escape-room-game/actions/workflows/flutter-ci.yml)
+
 A mobile choose-your-own-adventure escape room game built with Flutter. Players navigate through interconnected rooms, explore environments, and progress through the castle by selecting directional choices.
 
 This project demonstrates mobile UI development, state management, navigation logic, and interactive storytelling using Flutter and Dart.
